@@ -18,6 +18,8 @@
   "type": "module",
   "main": "dist/index.js",
   "scripts": {
-    "test": "echo \"Test not added\""
+    "test": "echo \"Test not added\"",
+    "build": "tsc",
+    "start": "node dist/index.js"
   }
 }
